@@ -104,7 +104,7 @@ launch_oasys() {
 }
 
 create_desktop_shortcut() {
-    read -p "Create Desktop Application (requires sudo grants)? ([Y]/n): " -n 1 -r
+    read -p "Create Desktop Application ([Y]/n): " -n 1 -r
     echo
     if [[ ! "$REPLY" =~ ^[Nn]$ ]]; then
         "$AUX_PATH/create_desktop_application.sh" "$AUX_PATH"
