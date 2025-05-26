@@ -16,14 +16,14 @@ mkdir -p "$OASYS_FOLDER"
 source ./oasys_install_lib.sh
 
 # === Run installation steps ===
-# setup_logging
-# check_git
-# prepare_miniconda_folder
-# download_installer
-# deactivate_existing_conda
-# install_miniconda
-# install_oasys_dependencies
-# install_qt_plugins
-# launch_oasys
+setup_logging
+check_git
+prepare_miniconda_folder
+download_installer
+deactivate_existing_conda
+install_miniconda
+install_oasys_dependencies
+install_qt_plugins
+launch_oasys
 create_desktop_shortcut
 final_message
